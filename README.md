@@ -1,3 +1,22 @@
+Tuesday, July 8, 2025 at 11:43 PM
+
+## A Streamlined Guide to Voice Journaling with Claude
+
+All right, this is just a quick post on how to use this file. Basically, all you do is open the README, put your cursor at the top of the file above all the dated entries, and use some voice dictation or type if you like. Whatever you say will be recorded in the README. Then, pop open Claude Code and say "Capture this" - it will think of a clever title and add a date. It will also extract a few points from whatever you blabbered on about. Finally, it will commit those changes to the README and push to your repo. And then you just rinse and repeat, placing your cursor above the last date and keeping on journaling.
+
+So there you go, that's all there is to it. You realize, don't you, that software is dead?
+
+Power user tip: set VSCode to autosave, so you don't have to remember to do that. It can be frustrating if you forget to save and Claude gets confused. Happy journaling!
+
+• Simple workflow: open README, add text at top, say "Capture this"
+• Claude handles formatting, dating, and Git operations automatically
+• Voice dictation recommended for effortless thought capture
+• Pro tip: enable VSCode autosave to avoid losing unsaved content
+• Philosophical aside: "software is dead"
+
+--- 
+
+
 Tuesday, July 8, 2025 at 11:23 PM
 
 ## Voice-to-Journal: A Simple Alternative to Note-Taking Apps
