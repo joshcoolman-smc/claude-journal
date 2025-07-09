@@ -8,14 +8,7 @@ This is a personal writing and notes repository focused on capturing thoughts ab
 
 ## Project Structure
 
-- **Markdown Files**: Primary content consists of timestamped journal entries and essays
-  - `README.md`: Main journal with dated entries about AI, creativity, and technology
-  - `archive.md`: Stream-of-consciousness notes about note-taking systems
-  - `my-first-post.md`: Essay on productivity systems and personal knowledge management
-
-## Development Commands
-
-Currently, no build, test, or lint commands are configured. The project intentionally avoids complex tooling in line with the author's philosophy of simple text capture.
+- `README.md`: Main journal with dated entries about AI, creativity, and technology
 
 ## Special Instructions
 
@@ -41,59 +34,6 @@ When the user says "capture this", "save that", "add this to the README" or simi
      - Add a blank line before the previous entry
 5. Replace the staging area with the formatted entry (preserving any blank lines at the very top)
 6. Git commit with a descriptive message and push after each capture
-
-### "New Document" Command
-When the user says "save as a new document", "save this as a new document", or similar phrases containing "new document":
-1. Create a new markdown file separate from the README.md journal
-2. If filename not provided, suggest a descriptive name based on the content
-3. Format the content as a standalone document (not as a journal entry):
-   - Include appropriate title and headers
-   - Structure content with clear sections
-   - Apply proper markdown formatting
-4. Save the file in the project directory
-5. Git commit with a descriptive message and push
-
-**Key distinction:**
-- "Capture this" → Adds timestamped entry to README.md
-- "New document" → Creates separate .md file with compiled/researched content
-
-### "Blog Post" Command
-When the user asks to "write a blog post" or similar (THIS IS SEPARATE FROM README.md UPDATES):
-1. Create a new standalone markdown file in the root directory (NOT the README.md)
-2. This format is specifically for blog posts, not for journal entries or README updates
-3. If providing content directly or writing to a file, use the following frontmatter format:
-```markdown
----
-title: "Your Post Title"
-date: "2024-01-15"
-description: "A brief description of your post"
-tags: ["tag1", "tag2", "tag3"]
-published: true
----
-
-Your content goes here in markdown format.
-
-## Headers work as expected
-
-Regular paragraphs with **bold** and *italic* text.
-
-- Bullet points
-- Work great
-
-1. Numbered lists
-2. Also supported
-
-> Blockquotes for emphasis
-
-```javascript
-// Code blocks with syntax highlighting
-const example = "Hello World";
-```
-
-[Links](https://example.com) and images also supported.
-```
-
-**Important:** The frontmatter (between the --- markers) is required and must include title, date, description, tags array, and published boolean.
 
 ### Writing Philosophy
 
